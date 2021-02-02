@@ -1,0 +1,5 @@
+Pour la vision du joueur :
+hauteur : 465px
+largeur : 715px
+
+Avec bien sur le joueur centré au milieu

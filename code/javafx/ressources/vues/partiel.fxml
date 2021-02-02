@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            id="partiel"
+            fx:controller="controlleur.ControlleurPartiel"
+            prefWidth="715" prefHeight="465">
+
+
+    <center>
+        <VBox alignment="CENTER">
+            <Label id="tout" text="Question : " />
+            <Label id="tout" fx:id="bonsoir" text="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" />
+        </VBox>
+    </center>
+
+    <bottom>
+        <VBox alignment="BOTTOM_CENTER">
+            <TextField fx:id="Reponse" text="réponse" id="1" prefWidth="Infinity" alignment="CENTER" />
+            <Button fx:id="valider" text="valider" onAction="#reponse"/>
+        </VBox>
+    </bottom>
+
+
+
+</BorderPane>

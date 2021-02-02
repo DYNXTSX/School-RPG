@@ -1,0 +1,64 @@
+.root{
+    -fx-background-repeat : no-repeat;
+}
+
+#imgcollision{
+    -fx-opacity: 0;
+}
+
+#pageaccueil{
+    -fx-background-image: url("/imgs/accueil/fondaccueil.png");
+    -fx-background-size : cover;
+}
+
+#buttonjouer {
+    -fx-background-color: transparent;
+}
+
+#test{
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-text-alignment: justify;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+
+}
+
+#nomMsg {
+    -fx-font-size: 19px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#msgMsg{
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+
+}
+#nomJoueur{
+    -fx-font-weight: bold;
+    -fx-text-fill: yellow;
+}
+
+#quete{
+    -fx-text-fill: white;
+    -fx-background-color: #2A2A29;
+    -fx-text-margin : 10px
+}
+
+#msgEnPlus{
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+
+#TestEtatPartie{
+    -fx-font-size: 66px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#endGame{
+    -fx-background-color: black;
+}

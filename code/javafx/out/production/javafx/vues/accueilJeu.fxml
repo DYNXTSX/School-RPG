@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            id="pageaccueil"
+            fx:controller="controlleur.ControlleurAccueilJeu"
+            onKeyPressed="#bouger">
+
+            <top>
+                <Label fx:id="carre" />
+
+                <HBox alignment="CENTER" prefHeight="250">
+                    <ImageView fx:id="logo">
+                        <image>
+                            <Image url="/imgs/accueil/logo.png"/>
+                        </image>
+                    </ImageView>
+                </HBox>
+            </top>
+
+            <center>
+                <HBox alignment="CENTER">
+                    <TextField fx:id="pseudo" alignment="CENTER" prefHeight="35" prefWidth="250">Pseudo</TextField>
+                </HBox>
+            </center>
+
+            <bottom>
+                <HBox alignment="CENTER" prefHeight="200">
+                    <Button fx:id="jouer" alignment="CENTER" onAction="#Jouer" id="buttonjouer">
+                        <graphic>
+                            <ImageView fx:id="play">
+                                <image>
+                                    <Image url="/imgs/accueil/button.png"/>
+                                </image>
+                            </ImageView>
+                        </graphic>
+                    </Button>
+                </HBox>
+            </bottom>
+</BorderPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.scene.text.Text?>
+<Pane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controlleur.ControlleurJeu"
+            fx:id="zoneDeJeu"
+            prefWidth="715" prefHeight="465">
+
+
+        <!--<center>
+            <Pane fx:id="enfant">
+                <FlowPane viewOrder="1" fx:id="imagebackgroundsup">
+                    <ImageView fx:id="imgesup">
+                        <Image url="/imgs/map/superposition_haute.png"/>
+                    </ImageView>
+                </FlowPane>
+                <FlowPane viewOrder="2" fx:id="imgcollision">
+                    <ImageView fx:id="imgcol">
+                        <Image url="/imgs/map/collisions.png"/>
+                    </ImageView>
+                </FlowPane>
+                <VBox viewOrder="2" prefHeight="350" fx:id="image">
+                    <alignment>center</alignment>
+                    <ImageView fx:id="img">
+                        <Image url="/imgs/characters/repos/repos_2.png"/>
+                    </ImageView>
+                    <Label fx:id="legende"/>
+                </VBox>
+                <FlowPane viewOrder="3" fx:id="imagebackground">
+                    <ImageView fx:id="imge">
+                        <Image url="/imgs/map/superposition_basse.png"/>
+                    </ImageView>
+                </FlowPane>
+            </Pane>
+        </center>
+        <bottom>
+            <GridPane>
+                <rowConstraints>
+                    <RowConstraints percentHeight="100"/>
+                    <RowConstraints percentHeight="100"/>
+                    <RowConstraints percentHeight="100"/>
+                </rowConstraints>
+                <columnConstraints>
+                    <ColumnConstraints percentWidth="40"/>
+                    <ColumnConstraints percentWidth="20"/>
+                    <ColumnConstraints percentWidth="40"/>
+                </columnConstraints>
+                <Button GridPane.rowIndex="0" GridPane.columnIndex="1" textAlignment="CENTER" GridPane.halignment="CENTER">haut</Button>
+            </GridPane>
+        </bottom>-->
+
+</Pane>
